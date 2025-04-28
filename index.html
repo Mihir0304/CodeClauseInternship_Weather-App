@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <h1>🌦️ Weather App</h1>
+        <form id="weather-form" autocomplete="off">
+            <input type="text" id="city" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="loader" class="loader" style="display:none"></div>
+        <div id="weather-info"></div>
+        <div id="error-message"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
